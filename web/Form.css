@@ -1,0 +1,81 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 3/03/2019, 12:36:00 PM
+    Author     : jairo
+*/
+
+BODY {
+	font-family: Arial;
+	font-size: 0.8em;
+}
+ 
+/* Estable el formato para todos los div's */
+div {
+	clear: both;
+}
+ 
+/* Determina los div's que el contenido es centrado. Hereda "clear: both;" */
+.form_center {
+	text-align:center;
+}
+ 
+/* Para los input's alineados */
+.form_input_align {
+	float:left;
+	border:1px solid;
+	margin-left:0.2em;
+}
+ 
+/* Para los input's centrados */
+.form_input_center {
+	border:1px solid;
+}
+ 
+/* Para los label's alineados */
+.form_label_align {
+	float:left;
+	width:50%;
+	text-align:right;
+}
+ 
+/* indicamos una pequeña separación en cada label, input, select y textarea */
+label, input, select, textarea {
+	margin-bottom:0.3em;
+}
+ 
+/* Unicamente funciona con Firefox
+   Determina el formato cuando se selecciona un cuadro de texto */
+input:focus, select:focus, textarea:focus {
+	background-color: #c6d3ff;
+}
+ 
+/* Determina el formato de los comentarios */
+.form_comment {
+	color: #808080;
+}
+ 
+/* Determina el formato de los comentarios centrados */
+.form_comment_center {
+	text-align:center;
+	color: #808080;
+}
+ 
+/* Determina el formato de los botones */
+.button {
+	padding: 0em 0.5em 0em 0.5em;
+}
+ 
+/* Determina el formato del marco */
+fieldset {
+	border: 1px solid #808080;
+	padding: 0.5em 0.5em 0.5em 0.5em;
+}
+ 
+/* Determina el formato del titulo del marco */
+legend {
+	color: #808080;
+}
